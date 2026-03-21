@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Samuel William Hanson</title>
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 17px;
+      line-height: 1.65;
+      color: #1a1a1a;
+      background-color: #fafafa;
+      max-width: 740px;
+      margin: 0 auto;
+      padding: 60px 30px 80px;
+    }
+
+    /* ── Typography ── */
+
+    h1 {
+      font-size: 2rem;
+      font-weight: normal;
+      letter-spacing: -0.01em;
+      margin-bottom: 0.2em;
+    }
+
+    h2 {
+      font-size: 1.05rem;
+      font-weight: normal;
+      text-transform: uppercase;
+      letter-spacing: 0.10em;
+      color: #555;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 0.3em;
+      margin-top: 2.6em;
+      margin-bottom: 1em;
+    }
+
+    h3 {
+      font-size: 1rem;
+      font-weight: bold;
+      margin-bottom: 0.25em;
+    }
+
+    p {
+      margin-bottom: 1em;
+    }
+
+    a {
+      color: #2a5db0;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* ── Header ── */
+
+    header {
+      margin-bottom: 0.5em;
+    }
+
+    .tagline {
+      font-size: 1rem;
+      color: #444;
+      margin-top: 0.2em;
+      margin-bottom: 0.8em;
+    }
+
+    .contact-line {
+      font-size: 0.92rem;
+      color: #444;
+      margin-bottom: 0.4em;
+    }
+
+    .contact-line a {
+      margin-right: 1.4em;
+    }
+
+    /* ── Nav ── */
+
+    nav {
+      margin-top: 1.2em;
+      margin-bottom: 2.8em;
+      border-top: 1px solid #ddd;
+      border-bottom: 1px solid #ddd;
+      padding: 0.55em 0;
+      font-size: 0.9rem;
+    }
+
+    nav a {
+      margin-right: 1.6em;
+      color: #333;
+    }
+
+    nav a:hover {
+      color: #2a5db0;
+      text-decoration: none;
+    }
+
+    /* ── Sections ── */
+
+    section {
+      margin-bottom: 0.5em;
+    }
+
+    /* ── Research ── */
+
+    .paper {
+      margin-bottom: 1.3em;
+    }
+
+    .paper-title {
+      font-style: italic;
+    }
+
+    .paper-note {
+      font-size: 0.92rem;
+      color: #444;
+    }
+
+    .paper-status {
+      font-size: 0.85rem;
+      color: #777;
+      font-variant: small-caps;
+      letter-spacing: 0.04em;
+    }
+
+    /* ── Education ── */
+
+    .edu-entry {
+      margin-bottom: 1.3em;
+    }
+
+    .edu-institution {
+      font-weight: bold;
+    }
+
+    .edu-degree {
+      color: #222;
+    }
+
+    .edu-dates {
+      font-size: 0.92rem;
+      color: #555;
+    }
+
+    .coursework {
+      margin-top: 0.6em;
+      font-size: 0.9rem;
+      color: #333;
+    }
+
+    .coursework-row {
+      display: flex;
+      gap: 0.5em;
+      margin-bottom: 0.2em;
+      flex-wrap: wrap;
+    }
+
+    .cw-label {
+      font-weight: bold;
+      min-width: 130px;
+      color: #444;
+      flex-shrink: 0;
+    }
+
+    .cw-courses {
+      color: #333;
+    }
+
+    /* ── Skills ── */
+
+    .skills-line {
+      font-size: 0.95rem;
+      color: #333;
+    }
+
+    /* ── CV ── */
+
+    .cv-line {
+      font-size: 0.95rem;
+    }
+
+    /* ── Footer ── */
+
+    footer {
+      margin-top: 4em;
+      border-top: 1px solid #ddd;
+      padding-top: 1em;
+      font-size: 0.82rem;
+      color: #888;
+    }
+
+    /* ── Responsive ── */
+
+    @media (max-width: 600px) {
+      body {
+        padding: 36px 20px 60px;
+        font-size: 16px;
+      }
+
+      h1 {
+        font-size: 1.65rem;
+      }
+
+      .cw-label {
+        min-width: 110px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ══ Header ══ -->
+  <header>
+    <h1>Samuel William Hanson</h1>
+    <p class="tagline">Undergraduate, Economics &amp; Mathematics &nbsp;|&nbsp; University of Toronto</p>
+    <div class="contact-line">
+      <a href="mailto:sam.hanson@mail.utoronto.ca">sam.hanson@mail.utoronto.ca</a>
+      <a href="/cv.pdf">CV</a>
+      <a href="https://www.linkedin.com/in/samuelhanson" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </header>
+
+  <!-- ══ Nav ══ -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#research">Research</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#cv">CV</a>
+  </nav>
+
+  <!-- ══ About ══ -->
+  <section id="about">
+    <h2>About</h2>
+    <p>
+      I am a first-year undergraduate at the University of Toronto pursuing the Economics &amp; Mathematics Specialist program.
+      My research interests include information economics, market efficiency, the economics of artificial intelligence, and public policy.
+      I am particularly interested in how declining prediction costs reshape information acquisition and price discovery in financial markets.
+    </p>
+  </section>
+
+  <!-- ══ Research ══ -->
+  <section id="research">
+    <h2>Research</h2>
+
+    <h3 style="font-size:0.92rem; font-weight:normal; text-transform:uppercase; letter-spacing:0.07em; color:#666; margin-bottom:0.8em;">Work in Progress</h3>
+
+    <div class="paper">
+      <div class="paper-title">
+        The Prediction Cost Paradox: AI, Grossman-Stiglitz, and the Rise of Passive Investing
+      </div>
+      <div class="paper-note">
+        A conceptual essay exploring the tension between falling AI-driven prediction costs and the growth of passive investing
+        through the lens of the Grossman-Stiglitz (1980) information efficiency model.
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ══ Education ══ -->
+  <section id="education">
+    <h2>Education</h2>
+
+    <div class="edu-entry">
+      <div class="edu-institution">University of Toronto</div>
+      <div class="edu-degree">HBSc, Economics &amp; Mathematics Specialist</div>
+      <div class="edu-dates">2025 – 2029 (expected)</div>
+
+      <div class="coursework">
+        <div class="coursework-row">
+          <span class="cw-label">Mathematics</span>
+          <span class="cw-courses">MAT137 Calculus with Proofs, MAT223 Linear Algebra I</span>
+        </div>
+        <div class="coursework-row">
+          <span class="cw-label">Economics</span>
+          <span class="cw-courses">ECO101 Principles of Microeconomics, ECO102 Principles of Macroeconomics</span>
+        </div>
+        <div class="coursework-row">
+          <span class="cw-label">Computer Science</span>
+          <span class="cw-courses">CSC108 Introduction to Programming, CSC148 Introduction to Computer Science</span>
+        </div>
+        <div class="coursework-row">
+          <span class="cw-label">Statistics</span>
+          <span class="cw-courses">STA130 Introduction to Statistical Reasoning</span>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ══ Skills ══ -->
+  <section id="skills">
+    <h2>Technical Skills</h2>
+    <p class="skills-line">Python, Stata <span style="color:#777; font-size:0.88em;">(basic, in progress)</span>, R, Excel</p>
+  </section>
+
+  <!-- ══ CV ══ -->
+  <section id="cv">
+    <h2>CV</h2>
+    <p class="cv-line">My CV is available <a href="/cv.pdf">here</a>.</p>
+  </section>
+
+  <!-- ══ Footer ══ -->
+  <footer>
+    Last updated: March 2026
+  </footer>
+
+</body>
+</html>
